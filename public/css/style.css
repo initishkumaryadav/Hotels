@@ -1,0 +1,87 @@
+.navbar{
+    height: 4rem;
+    background-color: white;
+}
+.fa-compass{
+    color:#ff385c;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.main-footer{
+    height: 3rem;
+    border: #222222;
+}
+.f-socials{
+    padding-top: 0.3rem;
+}
+.f-socials,.f-company,.f-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0.2rem;
+}
+.fa-brands,.f-info-in{
+    margin: 0.3rem;
+}
+.f-info-in{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-in:hover{
+    text-decoration:underline;
+}
+.card{
+    margin-bottom:2rem;
+
+}
+.card-listing{
+    border: none !important;
+    margin-bottom:2rem;
+}
+.car-img-top{
+    border-radius:2rem !important;
+    width:100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight:400 !important;
+}
+.listing-link{
+    text-decoration:none;
+}
+.card-img-overlay{
+    text-decoration: none;
+    opacity:0;
+}
+.card-img-overlay:hover{
+background-color: white;
+opacity:0.2;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+.add-btn{
+    background-color: red !important;
+    border: none !important;
+}
+.show-img{
+    width:80vh !important;
+    height:40vh !important;
+}
+.btns{
+    display: flex !important;
+}
+.show-card{
+    padding-left:0;
+    padding-right:0 ;
+}
