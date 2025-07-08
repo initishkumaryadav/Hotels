@@ -15,7 +15,12 @@ async function main() {
 }
 
 const initDB = async () => {
+  const userId = "686c79ebfd1b1ef8569e4039"; // Replace with the actual user ID
   await Listing.deleteMany({});
-  await Listing.insertMany(initData.data); 
-  console.log("Data was initialized");
+  const updatedData = initData.data.map(listing => ({
+    ...listing,
+    owner: userId
+  }));
+  await Listing.insertMany(updatedData);
+  console.log("Data was initialized with owner field.");
 };
